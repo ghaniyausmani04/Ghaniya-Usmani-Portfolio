@@ -94,8 +94,8 @@ export const PROJECTS: Project[] = [
     description:
       "An interactive personal portfolio designed as a futuristic 3D web experience combining modern frontend development, animation, and immersive visual design.",
     tech: ["React", "Three.js", "React Three Fiber", "GSAP"],
-    url: "https://your-live-link-here.com",          
-  repoUrl: "https://github.com/your-username/your-repo",
+    url: "https://ghaniya-usmani-portfolio.vercel.app/",          
+  repoUrl: "https://github.com/ghaniyausmani04/Ghaniya-Usmani-Portfolio",
   },
   {
     index: "03",
