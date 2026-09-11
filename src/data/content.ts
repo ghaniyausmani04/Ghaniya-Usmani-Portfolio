@@ -9,9 +9,9 @@ export const NAV_LINKS = [
 ];
 
 export const SOCIALS = {
-  github: "https://github.com/", // TODO: replace with actual GitHub URL
-  linkedin: "https://linkedin.com/", // TODO: replace with actual LinkedIn URL
-  email: "hello@example.com", // TODO: replace with actual email
+  github: "https://github.com/ghaniyausmani04", // TODO: replace with actual GitHub URL
+  linkedin: "https://www.linkedin.com/in/ghaniya-usmani-a51837291", // TODO: replace with actual LinkedIn URL
+  email: "codein2nd@gmail.com", // TODO: replace with actual email
 };
 
 export const ABOUT_CARDS = [
@@ -35,6 +35,11 @@ export const ABOUT_CARDS = [
     description:
       "Learning to design scalable, maintainable and reliable software.",
   },
+  {
+    title: "AI Engineer",
+    description:
+    "Building intelligent systems and custom AI solutions that automate, learn, and scale."
+  }
 ];
 
 export const SKILL_GROUPS = [
@@ -66,7 +71,7 @@ export const SKILL_GROUPS = [
   },
 ];
 
-export type ProjectStatus = "Coming Soon" | "Currently Building";
+export type ProjectStatus = "Coming Soon" | "Currently Building" | "Completed";
 
 export interface Project {
   index: string;
@@ -90,7 +95,7 @@ export const PROJECTS: Project[] = [
   {
     index: "02",
     title: "3D Developer Portfolio",
-    status: "Currently Building",
+    status: "Completed",
     description:
       "An interactive personal portfolio designed as a futuristic 3D web experience combining modern frontend development, animation, and immersive visual design.",
     tech: ["React", "Three.js", "React Three Fiber", "GSAP"],
@@ -126,7 +131,7 @@ export const EXPERIENCE = [
 ];
 
 export const EDUCATION = {
-  degree: "Bachelor's in Computer Science",
-  school: "University Name", // TODO: replace with actual university
-  period: "20XX — Present", // TODO: replace with actual dates
+  degree: "Bachelor's of Science in Computer Science",
+  school: "Iqra University", 
+  period: "2023 — Present", 
 };
