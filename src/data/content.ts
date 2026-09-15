@@ -80,6 +80,7 @@ export interface Project {
   tech: string[];
   url?: string;
   repoUrl?: string;
+  image?: string;
 }
 
 export const PROJECTS: Project[] = [
@@ -100,6 +101,7 @@ export const PROJECTS: Project[] = [
     tech: ["React", "Three.js", "React Three Fiber", "GSAP"],
     url: "https://ghaniya-usmani-portfolio.vercel.app/",          
   repoUrl: "https://github.com/ghaniyausmani04/Ghaniya-Usmani-Portfolio",
+  image: "/projects/portfolio-preview.png",
   },
   {
     index: "03",

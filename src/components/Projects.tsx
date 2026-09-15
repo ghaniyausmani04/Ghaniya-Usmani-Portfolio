@@ -32,9 +32,19 @@ function ProjectCard({ project }: { project: Project }) {
       style={{ transformStyle: "preserve-3d" }}
     >
       {/* preview area */}
-      <div className="relative flex h-40 items-center justify-center overflow-hidden border-b border-white/5 bg-gradient-to-br from-void-800 to-void-900">
-        <div className="absolute inset-0 bg-grid-glow opacity-60" />
-        <span className="font-display text-5xl font-semibold text-white/[0.06]">{project.index}</span>
+<div className="relative flex h-40 items-center justify-center overflow-hidden border-b border-white/5 bg-gradient-to-br from-void-800 to-void-900">
+  {project.image ? (
+    <img
+      src={project.image}
+      alt={`${project.title} preview`}
+      className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+    />
+  ) : (
+    <>
+      <div className="absolute inset-0 bg-grid-glow opacity-60" />
+      <span className="font-display text-5xl font-semibold text-white/[0.06]">{project.index}</span>
+    </>
+  )}
         <div
           className={`absolute right-3 top-3 flex items-center gap-1.5 rounded-full border px-3 py-1 font-body text-xs font-medium backdrop-blur-md ${
             isBuilding
