@@ -1,9 +1,9 @@
 import { useRef, type MouseEvent } from "react";
-import { Code2, BrainCircuit, Layers, Cpu } from "lucide-react";
+import { Code2, BrainCircuit, Layers, Cpu, Bot } from "lucide-react";
 import Reveal from "./Reveal";
 import { ABOUT_CARDS } from "../data/content";
 
-const ICONS = [Code2, BrainCircuit, Layers, Cpu];
+const ICONS = [Code2, BrainCircuit, Layers, Cpu, Bot];
 
 function TiltCard({ title, description, Icon }: { title: string; description: string; Icon: typeof Code2 }) {
   const ref = useRef<HTMLDivElement>(null);

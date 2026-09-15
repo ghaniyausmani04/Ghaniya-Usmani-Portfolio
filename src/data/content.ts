@@ -9,11 +9,10 @@ export const NAV_LINKS = [
 ];
 
 export const SOCIALS = {
-  github: "https://github.com/ghaniyausmani04", // TODO: replace with actual GitHub URL
-  linkedin: "https://www.linkedin.com/in/ghaniya-usmani-a51837291", // TODO: replace with actual LinkedIn URL
-  email: "codein2nd@gmail.com", // TODO: replace with actual email
+  github: "https://github.com/ghaniyausmani04",
+  linkedin: "https://www.linkedin.com/in/ghaniya-usmani-a51837291",
+  email: "codein2nd@gmail.com",
 };
-
 export const ABOUT_CARDS = [
   {
     title: "Full-Stack Development",
@@ -115,8 +114,8 @@ export const PROJECTS: Project[] = [
 export const EXPERIENCE = [
   {
     kind: "Internship / Experience",
-    org: "Company Name", // TODO: replace with actual company
-    period: "20XX", // TODO: replace with actual dates
+    org: "to be added", 
+    period: "year month", // 
     description:
       "Add internship responsibilities, achievements, technologies, and contributions here.",
     placeholder: true,

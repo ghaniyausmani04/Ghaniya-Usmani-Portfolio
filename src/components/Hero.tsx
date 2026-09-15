@@ -61,8 +61,8 @@ export default function Hero() {
           <motion.p variants={item} className="mt-6 max-w-lg font-body text-[15px] leading-relaxed text-silver-300 sm:text-base">
             I'm pursuing a Bachelor's in Computer Science with a passion for building modern
             digital experiences and solving real-world problems through technology. My interests
-            span web and app development, AI/ML, and software engineering, with a long-term goal
-            of becoming a versatile full-stack developer.
+            span Web & App development, AI/ML, and software engineering, with a long-term goal
+            of becoming an AI Engineer.
           </motion.p>
 
           <motion.div variants={item} className="mt-9 flex flex-wrap items-center gap-4">
